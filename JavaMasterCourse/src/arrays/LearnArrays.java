@@ -1,6 +1,7 @@
 package arrays;
 
-public class Arrays {
+import  java.util.Arrays;
+public class LearnArrays {
 
     public static void main(String[]args){
 //        int [] numbers = {9911, 1111, 2223, 239, 789};
@@ -19,7 +20,7 @@ public class Arrays {
 //        for(int i = 0; i < ages.length; i++){
 //            System.out.println(ages[i]);
 //        }
-
+/*
         int [] countDown = {5, 4, 3, 2, 1};
         String [] lift = {"Ignition sequence started!","Liftoff!"};
 
@@ -73,6 +74,22 @@ public class Arrays {
             System.out.println(numbersFixed[doNumb]);
             doNumb++;
         }while (doNumb < numbersFixed.length);
+*/
+
+        int [] numbers = new int[5];
+        numbers[0] = 239;
+        numbers[1] = 0101;
+        numbers[2]= 1212;
+        System.out.println(Arrays.toString(numbers));
+
+        String [] fruit = {"banana", "strawberries", "papaya", "melon", "blueberries"};
+        Arrays.sort(fruit);
+        System.out.println(Arrays.toString(fruit));
+        System.out.println(fruit.length);
+
+        /*Multi-dimensional Arrays*/
+        int [][][] newNumbs =  new int[3][5][2];
+        System.out.println(Arrays.deepToString(newNumbs));
 
     }
 

@@ -1,5 +1,6 @@
 package types;
 
+import java.awt.*;
 import java.util.Date;
 
 public class Types {
@@ -28,6 +29,13 @@ public class Types {
 
         byte ageTwo = 33;
         Date now = new Date();  // Use the new keyword to allocate memory
-        System.out.println(now);
+//        System.out.println(now);
+
+//      point 1 and point 2 are referencing the same object(reference address) in memory
+//      Note: Reference types are copied by reference and primitive types are copied by value
+        Point point1 = new Point(2,6);
+        Point point2 = point1;
+        point1.x = 3;
+        System.out.println(point2);
     }
 }
