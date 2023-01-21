@@ -13,16 +13,22 @@ public class Loops {
 //            System.out.println("Waiting");
 //            i++;
 //        }
-        Scanner sc = new Scanner(System.in);
-        String userResponse = "";
-        while (true){
-            System.out.print("Enter a response:");
-            userResponse = sc.nextLine().toLowerCase();
-            if(userResponse.equals("pass"))
-                continue;
-            if(userResponse.equals("quit"))
-                break;
-            System.out.println(userResponse);
+//        Scanner sc = new Scanner(System.in);
+//        String userResponse = "";
+//        while (true){
+//            System.out.print("Enter a response:");
+//            userResponse = sc.nextLine().toLowerCase();
+//            if(userResponse.equals("pass"))
+//                continue;
+//            if(userResponse.equals("quit"))
+//                break;
+//            System.out.println(userResponse);
+//        }
+
+        String [] fruits = {"Apple", "Strawberries","Orange" };
+        for (String fruit: fruits
+             ) {
+            System.out.println(fruit);
         }
     }
 }
