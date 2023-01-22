@@ -1,6 +1,13 @@
 package methods;
 
+/**
+ * The class
+ */
 public class Methods {
+    /**
+     * @findTheArea
+     * @param args
+     */
     public static void main(String[]args){
         System.out.println(Methods.findTheArea(2,3));
         System.out.println(Methods.addNumbers(23,39));
