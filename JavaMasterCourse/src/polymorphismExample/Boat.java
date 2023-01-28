@@ -5,4 +5,8 @@ public class Boat extends Vehicle{
         super("Boat start", "Boat stop", "Boat speed",
                 "Boat direction");
     }
+
+    public void depthFinder(){
+        System.out.println("How deep is this water?");
+    }
 }

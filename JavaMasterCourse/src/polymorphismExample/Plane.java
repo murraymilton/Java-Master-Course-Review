@@ -6,4 +6,8 @@ public class Plane extends Vehicle {
                 "Plane direction");
     }
 
+    public void altitude(){
+        System.out.println("How high are we?");
+    }
+
 }
