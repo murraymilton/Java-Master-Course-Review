@@ -7,7 +7,7 @@ public class VehicleTester {
         vehicles[1] = new Boat();
         vehicles[2] = new Plane();
 
-        for (int i = 0; i < vehicles.length; i++){
+        for(int i = 0; i < vehicles.length; i++){
             Vehicle vehicle = vehicles[i];
             vehicle.speed();
         }
