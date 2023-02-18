@@ -1,6 +1,8 @@
 package interfaceExample;
 
-public class Car implements Vehicle{
+import interfacesExplained.Product;
+
+public class Car implements Vehicle, Production {
     private String type;
     private String speed;
     private String color;
